@@ -22,7 +22,6 @@ public class ContratoController {
     public ResponseEntity crearContrarto(@RequestBody Contrato contrato){
 
         contratoRepository.save(contrato);
-        System.out.println(contrato.getId_contrato());
         ResponseEntity responseEntity;
         if(contratoRepository.existsById(contrato.getId_contrato())){
             responseEntity = new ResponseEntity(HttpStatus.OK);
