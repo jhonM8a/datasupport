@@ -4,6 +4,9 @@ import jakarta.annotation.Nonnull;
 import jakarta.persistence.*;
 import org.springframework.lang.NonNull;
 
+import java.util.List;
+import java.util.Set;
+
 @Entity
 @Table(name = "especialidad")
 public class Especialidad {
@@ -14,6 +17,7 @@ public class Especialidad {
     private String nombre;
 
     private String descripcion;
+
 
     public Long getId_especialidad() {
         return id_especialidad;
@@ -38,4 +42,6 @@ public class Especialidad {
     public void setDescripcion(String descripcion) {
         this.descripcion = descripcion;
     }
+
+
 }
