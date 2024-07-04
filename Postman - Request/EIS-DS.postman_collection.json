@@ -10,396 +10,6 @@
 			"name": "proyecto",
 			"item": [
 				{
-					"name": "localhost:8080/cliente/crear",
-					"request": {
-						"auth": {
-							"type": "oauth2",
-							"oauth2": [
-								{
-									"key": "scope",
-									"value": "GETPEACTIVITIES-V2",
-									"type": "string"
-								},
-								{
-									"key": "clientId",
-									"value": "hgQn/zbzSuHkcq0K",
-									"type": "string"
-								},
-								{
-									"key": "clientSecret",
-									"value": "Ydb4RNUppsa6bZuPA/ZFiMFBSC6EvPDn",
-									"type": "string"
-								},
-								{
-									"key": "accessTokenUrl",
-									"value": "https://integration.pub01.int:11391/osck/oauth/client",
-									"type": "string"
-								},
-								{
-									"key": "tokenType",
-									"value": "Bearer",
-									"type": "string"
-								},
-								{
-									"key": "tokenName",
-									"value": "aduran",
-									"type": "string"
-								},
-								{
-									"key": "addTokenTo",
-									"value": "header",
-									"type": "string"
-								},
-								{
-									"key": "grant_type",
-									"value": "client_credentials",
-									"type": "string"
-								},
-								{
-									"key": "client_authentication",
-									"value": "header",
-									"type": "string"
-								}
-							]
-						},
-						"method": "POST",
-						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": "{\r\n    \"nombre\":\"{{$randomFullName}}\"\r\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": {
-							"raw": "localhost:8080/cliente/crear",
-							"host": [
-								"localhost"
-							],
-							"port": "8080",
-							"path": [
-								"cliente",
-								"crear"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "localhost:8080/especialidad/crear",
-					"request": {
-						"auth": {
-							"type": "oauth2",
-							"oauth2": [
-								{
-									"key": "scope",
-									"value": "GETPEACTIVITIES-V2",
-									"type": "string"
-								},
-								{
-									"key": "clientId",
-									"value": "hgQn/zbzSuHkcq0K",
-									"type": "string"
-								},
-								{
-									"key": "clientSecret",
-									"value": "Ydb4RNUppsa6bZuPA/ZFiMFBSC6EvPDn",
-									"type": "string"
-								},
-								{
-									"key": "accessTokenUrl",
-									"value": "https://integration.pub01.int:11391/osck/oauth/client",
-									"type": "string"
-								},
-								{
-									"key": "tokenType",
-									"value": "Bearer",
-									"type": "string"
-								},
-								{
-									"key": "tokenName",
-									"value": "aduran",
-									"type": "string"
-								},
-								{
-									"key": "addTokenTo",
-									"value": "header",
-									"type": "string"
-								},
-								{
-									"key": "grant_type",
-									"value": "client_credentials",
-									"type": "string"
-								},
-								{
-									"key": "client_authentication",
-									"value": "header",
-									"type": "string"
-								}
-							]
-						},
-						"method": "POST",
-						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": "{\r\n    \"nombre\":\"internet  dos\"\r\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": {
-							"raw": "localhost:8080/especialidad/crear",
-							"host": [
-								"localhost"
-							],
-							"port": "8080",
-							"path": [
-								"especialidad",
-								"crear"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "localhost:8080/especialista/crear",
-					"request": {
-						"auth": {
-							"type": "oauth2",
-							"oauth2": [
-								{
-									"key": "scope",
-									"value": "GETPEACTIVITIES-V2",
-									"type": "string"
-								},
-								{
-									"key": "clientId",
-									"value": "hgQn/zbzSuHkcq0K",
-									"type": "string"
-								},
-								{
-									"key": "clientSecret",
-									"value": "Ydb4RNUppsa6bZuPA/ZFiMFBSC6EvPDn",
-									"type": "string"
-								},
-								{
-									"key": "accessTokenUrl",
-									"value": "https://integration.pub01.int:11391/osck/oauth/client",
-									"type": "string"
-								},
-								{
-									"key": "tokenType",
-									"value": "Bearer",
-									"type": "string"
-								},
-								{
-									"key": "tokenName",
-									"value": "aduran",
-									"type": "string"
-								},
-								{
-									"key": "addTokenTo",
-									"value": "header",
-									"type": "string"
-								},
-								{
-									"key": "grant_type",
-									"value": "client_credentials",
-									"type": "string"
-								},
-								{
-									"key": "client_authentication",
-									"value": "header",
-									"type": "string"
-								}
-							]
-						},
-						"method": "POST",
-						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": "{\r\n    \"nombre\":\"Jhon Mario Ochoa\",\r\n    \"especialidad\":{\r\n        \"id_especialidad\":2\r\n    }\r\n    \r\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": {
-							"raw": "localhost:8080/especialista/crear",
-							"host": [
-								"localhost"
-							],
-							"port": "8080",
-							"path": [
-								"especialista",
-								"crear"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "localhost:8080/contrato/crear",
-					"request": {
-						"auth": {
-							"type": "oauth2",
-							"oauth2": [
-								{
-									"key": "scope",
-									"value": "GETPEACTIVITIES-V2",
-									"type": "string"
-								},
-								{
-									"key": "clientId",
-									"value": "hgQn/zbzSuHkcq0K",
-									"type": "string"
-								},
-								{
-									"key": "clientSecret",
-									"value": "Ydb4RNUppsa6bZuPA/ZFiMFBSC6EvPDn",
-									"type": "string"
-								},
-								{
-									"key": "accessTokenUrl",
-									"value": "https://integration.pub01.int:11391/osck/oauth/client",
-									"type": "string"
-								},
-								{
-									"key": "tokenType",
-									"value": "Bearer",
-									"type": "string"
-								},
-								{
-									"key": "tokenName",
-									"value": "aduran",
-									"type": "string"
-								},
-								{
-									"key": "addTokenTo",
-									"value": "header",
-									"type": "string"
-								},
-								{
-									"key": "grant_type",
-									"value": "client_credentials",
-									"type": "string"
-								},
-								{
-									"key": "client_authentication",
-									"value": "header",
-									"type": "string"
-								}
-							]
-						},
-						"method": "POST",
-						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": "{\r\n    \"fecha_inicio\":\"2024-06-26T19:41:30-00:05\",\r\n    \"horas_contratadas\":\"{{$randomInt}}\",\r\n    \"cliente\":{\r\n        \"id_cliente\":1\r\n    }\r\n\r\n\r\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": {
-							"raw": "localhost:8080/contrato/crear",
-							"host": [
-								"localhost"
-							],
-							"port": "8080",
-							"path": [
-								"contrato",
-								"crear"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "localhost:8080/ticket/crear",
-					"request": {
-						"auth": {
-							"type": "oauth2",
-							"oauth2": [
-								{
-									"key": "scope",
-									"value": "GETPEACTIVITIES-V2",
-									"type": "string"
-								},
-								{
-									"key": "clientId",
-									"value": "hgQn/zbzSuHkcq0K",
-									"type": "string"
-								},
-								{
-									"key": "clientSecret",
-									"value": "Ydb4RNUppsa6bZuPA/ZFiMFBSC6EvPDn",
-									"type": "string"
-								},
-								{
-									"key": "accessTokenUrl",
-									"value": "https://integration.pub01.int:11391/osck/oauth/client",
-									"type": "string"
-								},
-								{
-									"key": "tokenType",
-									"value": "Bearer",
-									"type": "string"
-								},
-								{
-									"key": "tokenName",
-									"value": "aduran",
-									"type": "string"
-								},
-								{
-									"key": "addTokenTo",
-									"value": "header",
-									"type": "string"
-								},
-								{
-									"key": "grant_type",
-									"value": "client_credentials",
-									"type": "string"
-								},
-								{
-									"key": "client_authentication",
-									"value": "header",
-									"type": "string"
-								}
-							]
-						},
-						"method": "POST",
-						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": "{\r\n    \"descripcion\":\"{{$randomLoremParagraph}}\",\r\n    \"estado\":\"open\",\r\n    \"fecha_apertura\":\"2024-06-26T19:41:30-00:05\",\r\n    \"contrato\":{\r\n        \"id_contrato\":6\r\n    },\r\n    \"especialidad\":{\r\n        \"id_especialidad\":1\r\n    }\r\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": {
-							"raw": "localhost:8080/ticket/crear",
-							"host": [
-								"localhost"
-							],
-							"port": "8080",
-							"path": [
-								"ticket",
-								"crear"
-							]
-						}
-					},
-					"response": []
-				},
-				{
 					"name": "localhost:8080/auth/signup",
 					"request": {
 						"method": "POST",
@@ -492,14 +102,543 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:8080/auth/login",
+							"raw": "20.55.68.236:8080/auth/login",
 							"host": [
-								"localhost"
+								"20",
+								"55",
+								"68",
+								"236"
 							],
 							"port": "8080",
 							"path": [
 								"auth",
 								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "20.55.68.236:8080/cliente/crear",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqaG9uQGdtYWlsIiwiaWF0IjoxNzIwMDU3NTUxLCJleHAiOjE3MjAxNDM5NTF9.2vL_u_12FHHUesNdgfEQ92AZubtCaP81JMMiWpCyNzE",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\":\"{{$randomFullName}}\",\r\n    \"telefono\": \"{{$randomPhoneNumber}}\",\r\n    \"correo_electronico\":\"{{$randomExampleEmail}}\",\r\n    \"direccion\":\"{{$randomStreetAddress}}\",\r\n    \"tipo_servicio\":\"Internet\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "20.55.68.236:8080/cliente/crear",
+							"host": [
+								"20",
+								"55",
+								"68",
+								"236"
+							],
+							"port": "8080",
+							"path": [
+								"cliente",
+								"crear"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "20.55.68.236:8080/cliente/all",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqaG9uQGdtYWlsIiwiaWF0IjoxNzIwMDU5MjU1LCJleHAiOjE3MjAxNDU2NTV9.tvmUpfsvVsl4ocmHY8LNzXdOdpAk1T9nzx4lwkIgSq0",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "20.55.68.236:8080/cliente/all",
+							"host": [
+								"20",
+								"55",
+								"68",
+								"236"
+							],
+							"port": "8080",
+							"path": [
+								"cliente",
+								"all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "20.55.68.236:8080/cliente/4",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqaG9uQGdtYWlsIiwiaWF0IjoxNzIwMDU5MjU1LCJleHAiOjE3MjAxNDU2NTV9.tvmUpfsvVsl4ocmHY8LNzXdOdpAk1T9nzx4lwkIgSq0",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "20.55.68.236:8080/cliente/4",
+							"host": [
+								"20",
+								"55",
+								"68",
+								"236"
+							],
+							"port": "8080",
+							"path": [
+								"cliente",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "20.55.68.236:8080/especialidad/crear",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqaG9uQGdtYWlsIiwiaWF0IjoxNzIwMDU5MjU1LCJleHAiOjE3MjAxNDU2NTV9.tvmUpfsvVsl4ocmHY8LNzXdOdpAk1T9nzx4lwkIgSq0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\":\"internet  4\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "20.55.68.236:8080/especialidad/crear",
+							"host": [
+								"20",
+								"55",
+								"68",
+								"236"
+							],
+							"port": "8080",
+							"path": [
+								"especialidad",
+								"crear"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "20.55.68.236:8080/especialidad/all",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqaG9uQGdtYWlsIiwiaWF0IjoxNzIwMDU5MjU1LCJleHAiOjE3MjAxNDU2NTV9.tvmUpfsvVsl4ocmHY8LNzXdOdpAk1T9nzx4lwkIgSq0",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "20.55.68.236:8080/especialidad/all",
+							"host": [
+								"20",
+								"55",
+								"68",
+								"236"
+							],
+							"port": "8080",
+							"path": [
+								"especialidad",
+								"all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "20.55.68.236:8080/especialidad/2",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqaG9uQGdtYWlsIiwiaWF0IjoxNzIwMDU5MjU1LCJleHAiOjE3MjAxNDU2NTV9.tvmUpfsvVsl4ocmHY8LNzXdOdpAk1T9nzx4lwkIgSq0",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "20.55.68.236:8080/especialidad/2",
+							"host": [
+								"20",
+								"55",
+								"68",
+								"236"
+							],
+							"port": "8080",
+							"path": [
+								"especialidad",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "20.55.68.236:8080/especialista/crear",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqaG9uQGdtYWlsIiwiaWF0IjoxNzIwMDU5MjU1LCJleHAiOjE3MjAxNDU2NTV9.tvmUpfsvVsl4ocmHY8LNzXdOdpAk1T9nzx4lwkIgSq0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\":\"Jhon Mario\",\r\n    \"especialidad\":{\r\n        \"id_especialidad\":2\r\n    }\r\n    \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "20.55.68.236:8080/especialista/crear",
+							"host": [
+								"20",
+								"55",
+								"68",
+								"236"
+							],
+							"port": "8080",
+							"path": [
+								"especialista",
+								"crear"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "20.55.68.236:8080/especialista/all",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqaG9uQGdtYWlsIiwiaWF0IjoxNzIwMDU5MjU1LCJleHAiOjE3MjAxNDU2NTV9.tvmUpfsvVsl4ocmHY8LNzXdOdpAk1T9nzx4lwkIgSq0",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "20.55.68.236:8080/especialista/all",
+							"host": [
+								"20",
+								"55",
+								"68",
+								"236"
+							],
+							"port": "8080",
+							"path": [
+								"especialista",
+								"all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "20.55.68.236:8080/especialista/2",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqaG9uQGdtYWlsIiwiaWF0IjoxNzIwMDU5MjU1LCJleHAiOjE3MjAxNDU2NTV9.tvmUpfsvVsl4ocmHY8LNzXdOdpAk1T9nzx4lwkIgSq0",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "20.55.68.236:8080/especialista/2",
+							"host": [
+								"20",
+								"55",
+								"68",
+								"236"
+							],
+							"port": "8080",
+							"path": [
+								"especialista",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "20.55.68.236:8080/contrato/crear",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqaG9uQGdtYWlsIiwiaWF0IjoxNzIwMDU5MjU1LCJleHAiOjE3MjAxNDU2NTV9.tvmUpfsvVsl4ocmHY8LNzXdOdpAk1T9nzx4lwkIgSq0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"fecha_inicio\":\"2024-06-26T19:41:30-00:05\",\r\n    \"horas_contratadas\":\"{{$randomInt}}\",\r\n    \"cliente\":{\r\n        \"id_cliente\":2\r\n    }\r\n\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "20.55.68.236:8080/contrato/crear",
+							"host": [
+								"20",
+								"55",
+								"68",
+								"236"
+							],
+							"port": "8080",
+							"path": [
+								"contrato",
+								"crear"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "20.55.68.236:8080/contrato/all",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqaG9uQGdtYWlsIiwiaWF0IjoxNzIwMDU5MjU1LCJleHAiOjE3MjAxNDU2NTV9.tvmUpfsvVsl4ocmHY8LNzXdOdpAk1T9nzx4lwkIgSq0",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "20.55.68.236:8080/contrato/all",
+							"host": [
+								"20",
+								"55",
+								"68",
+								"236"
+							],
+							"port": "8080",
+							"path": [
+								"contrato",
+								"all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "20.55.68.236:8080/contrato/1",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqaG9uQGdtYWlsIiwiaWF0IjoxNzIwMDU5MjU1LCJleHAiOjE3MjAxNDU2NTV9.tvmUpfsvVsl4ocmHY8LNzXdOdpAk1T9nzx4lwkIgSq0",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "20.55.68.236:8080/contrato/1",
+							"host": [
+								"20",
+								"55",
+								"68",
+								"236"
+							],
+							"port": "8080",
+							"path": [
+								"contrato",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8080/ticket/crear",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "scope",
+									"value": "GETPEACTIVITIES-V2",
+									"type": "string"
+								},
+								{
+									"key": "clientId",
+									"value": "hgQn/zbzSuHkcq0K",
+									"type": "string"
+								},
+								{
+									"key": "clientSecret",
+									"value": "Ydb4RNUppsa6bZuPA/ZFiMFBSC6EvPDn",
+									"type": "string"
+								},
+								{
+									"key": "accessTokenUrl",
+									"value": "https://integration.pub01.int:11391/osck/oauth/client",
+									"type": "string"
+								},
+								{
+									"key": "tokenType",
+									"value": "Bearer",
+									"type": "string"
+								},
+								{
+									"key": "tokenName",
+									"value": "aduran",
+									"type": "string"
+								},
+								{
+									"key": "addTokenTo",
+									"value": "header",
+									"type": "string"
+								},
+								{
+									"key": "grant_type",
+									"value": "client_credentials",
+									"type": "string"
+								},
+								{
+									"key": "client_authentication",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"descripcion\":\"{{$randomLoremParagraph}}\",\r\n    \"estado\":\"open\",\r\n    \"fecha_apertura\":\"2024-06-26T19:41:30-00:05\",\r\n    \"contrato\":{\r\n        \"id_contrato\":6\r\n    },\r\n    \"especialidad\":{\r\n        \"id_especialidad\":1\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/ticket/crear",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ticket",
+								"crear"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8080/ticket/all",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqaG9uQGdtYWlsIiwiaWF0IjoxNzIwMDU3MjM2LCJleHAiOjE3MjAxNDM2MzZ9.FUDTs3Hnitq2IdIms_E6XN-igoHYMx3f1hgGXOPsptc",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "20.55.68.236:8080/ticket/all",
+							"host": [
+								"20",
+								"55",
+								"68",
+								"236"
+							],
+							"port": "8080",
+							"path": [
+								"ticket",
+								"all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8080/ticket/1",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqaG9uQGdtYWlsIiwiaWF0IjoxNzIwMDU2NDczLCJleHAiOjE3MjAxNDI4NzN9.PydiI7raSH01x0v14H2jHnKAcDn8MNrntYllWu5m4fw",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "20.55.68.236:8080:8080/ticket/1",
+							"host": [
+								"20",
+								"55",
+								"68",
+								"236:8080"
+							],
+							"port": "8080",
+							"path": [
+								"ticket",
+								"1"
 							]
 						}
 					},
