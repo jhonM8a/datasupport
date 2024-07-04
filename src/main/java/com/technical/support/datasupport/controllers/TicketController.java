@@ -5,10 +5,10 @@ import com.technical.support.datasupport.repositories.TicketRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/ticket")
@@ -22,4 +22,16 @@ public class TicketController {
         ticketRepository.save(ticket);
         return new ResponseEntity(HttpStatus.OK);
     }
+
+    @GetMapping("/all")
+    public List<Ticket> getTickets(){
+        return ticketRepository.findAll();
+    }
+
+    @GetMapping("/{id}")
+    public Ticket getTicket(@PathVariable Long id){
+        Optional<Ticket> ticketOptional = ticketRepository.findById(id);
+        return ticketOptional.isPresent() ? ticketOptional.get() : null;
+    }
+
 }
