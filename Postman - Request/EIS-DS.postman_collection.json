@@ -38,7 +38,7 @@
 					"response": []
 				},
 				{
-					"name": "localhost:8080/auth/login",
+					"name": "20.55.68.236:8080/auth/login",
 					"request": {
 						"auth": {
 							"type": "oauth2",
@@ -128,7 +128,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqaG9uQGdtYWlsIiwiaWF0IjoxNzIwMDU3NTUxLCJleHAiOjE3MjAxNDM5NTF9.2vL_u_12FHHUesNdgfEQ92AZubtCaP81JMMiWpCyNzE",
+								"value": "{{token_eis_project}}",
 								"type": "text"
 							}
 						],
@@ -165,7 +165,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqaG9uQGdtYWlsIiwiaWF0IjoxNzIwMDU5MjU1LCJleHAiOjE3MjAxNDU2NTV9.tvmUpfsvVsl4ocmHY8LNzXdOdpAk1T9nzx4lwkIgSq0",
+								"value": "{{token_eis_project}}",
 								"type": "text"
 							}
 						],
@@ -193,7 +193,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqaG9uQGdtYWlsIiwiaWF0IjoxNzIwMDU5MjU1LCJleHAiOjE3MjAxNDU2NTV9.tvmUpfsvVsl4ocmHY8LNzXdOdpAk1T9nzx4lwkIgSq0",
+								"value": "{{token_eis_project}}",
 								"type": "text"
 							}
 						],
@@ -224,7 +224,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqaG9uQGdtYWlsIiwiaWF0IjoxNzIwMDU5MjU1LCJleHAiOjE3MjAxNDU2NTV9.tvmUpfsvVsl4ocmHY8LNzXdOdpAk1T9nzx4lwkIgSq0",
+								"value": "{{token_eis_project}}",
 								"type": "text"
 							}
 						],
@@ -261,7 +261,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqaG9uQGdtYWlsIiwiaWF0IjoxNzIwMDU5MjU1LCJleHAiOjE3MjAxNDU2NTV9.tvmUpfsvVsl4ocmHY8LNzXdOdpAk1T9nzx4lwkIgSq0",
+								"value": "{{token_eis_project}}",
 								"type": "text"
 							}
 						],
@@ -289,7 +289,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqaG9uQGdtYWlsIiwiaWF0IjoxNzIwMDU5MjU1LCJleHAiOjE3MjAxNDU2NTV9.tvmUpfsvVsl4ocmHY8LNzXdOdpAk1T9nzx4lwkIgSq0",
+								"value": "{{token_eis_project}}",
 								"type": "text"
 							}
 						],
@@ -320,7 +320,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqaG9uQGdtYWlsIiwiaWF0IjoxNzIwMDU5MjU1LCJleHAiOjE3MjAxNDU2NTV9.tvmUpfsvVsl4ocmHY8LNzXdOdpAk1T9nzx4lwkIgSq0",
+								"value": "{{token_eis_project}}",
 								"type": "text"
 							}
 						],
@@ -357,7 +357,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqaG9uQGdtYWlsIiwiaWF0IjoxNzIwMDU5MjU1LCJleHAiOjE3MjAxNDU2NTV9.tvmUpfsvVsl4ocmHY8LNzXdOdpAk1T9nzx4lwkIgSq0",
+								"value": "{{token_eis_project}}",
 								"type": "text"
 							}
 						],
@@ -385,7 +385,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqaG9uQGdtYWlsIiwiaWF0IjoxNzIwMDU5MjU1LCJleHAiOjE3MjAxNDU2NTV9.tvmUpfsvVsl4ocmHY8LNzXdOdpAk1T9nzx4lwkIgSq0",
+								"value": "{{token_eis_project}}",
 								"type": "text"
 							}
 						],
@@ -416,7 +416,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqaG9uQGdtYWlsIiwiaWF0IjoxNzIwMDU5MjU1LCJleHAiOjE3MjAxNDU2NTV9.tvmUpfsvVsl4ocmHY8LNzXdOdpAk1T9nzx4lwkIgSq0",
+								"value": "{{token_eis_project}}",
 								"type": "text"
 							}
 						],
@@ -453,7 +453,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqaG9uQGdtYWlsIiwiaWF0IjoxNzIwMDU5MjU1LCJleHAiOjE3MjAxNDU2NTV9.tvmUpfsvVsl4ocmHY8LNzXdOdpAk1T9nzx4lwkIgSq0",
+								"value": "{{token_eis_project}}",
 								"type": "text"
 							}
 						],
@@ -481,7 +481,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqaG9uQGdtYWlsIiwiaWF0IjoxNzIwMDU5MjU1LCJleHAiOjE3MjAxNDU2NTV9.tvmUpfsvVsl4ocmHY8LNzXdOdpAk1T9nzx4lwkIgSq0",
+								"value": "{{token_eis_project}}",
 								"type": "text"
 							}
 						],
@@ -506,60 +506,19 @@
 					"name": "localhost:8080/ticket/crear",
 					"request": {
 						"auth": {
-							"type": "oauth2",
-							"oauth2": [
-								{
-									"key": "scope",
-									"value": "GETPEACTIVITIES-V2",
-									"type": "string"
-								},
-								{
-									"key": "clientId",
-									"value": "hgQn/zbzSuHkcq0K",
-									"type": "string"
-								},
-								{
-									"key": "clientSecret",
-									"value": "Ydb4RNUppsa6bZuPA/ZFiMFBSC6EvPDn",
-									"type": "string"
-								},
-								{
-									"key": "accessTokenUrl",
-									"value": "https://integration.pub01.int:11391/osck/oauth/client",
-									"type": "string"
-								},
-								{
-									"key": "tokenType",
-									"value": "Bearer",
-									"type": "string"
-								},
-								{
-									"key": "tokenName",
-									"value": "aduran",
-									"type": "string"
-								},
-								{
-									"key": "addTokenTo",
-									"value": "header",
-									"type": "string"
-								},
-								{
-									"key": "grant_type",
-									"value": "client_credentials",
-									"type": "string"
-								},
-								{
-									"key": "client_authentication",
-									"value": "header",
-									"type": "string"
-								}
-							]
+							"type": "noauth"
 						},
 						"method": "POST",
-						"header": [],
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token_eis_project}}",
+								"type": "text"
+							}
+						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"descripcion\":\"{{$randomLoremParagraph}}\",\r\n    \"estado\":\"open\",\r\n    \"fecha_apertura\":\"2024-06-26T19:41:30-00:05\",\r\n    \"contrato\":{\r\n        \"id_contrato\":6\r\n    },\r\n    \"especialidad\":{\r\n        \"id_especialidad\":1\r\n    }\r\n}",
+							"raw": "{\r\n    \"descripcion\":\"{{$randomLoremParagraph}}\",\r\n    \"estado\":\"open\",\r\n    \"fecha_apertura\":\"2024-06-26T19:41:30-00:05\",\r\n    \"contrato\":{\r\n        \"id_contrato\":1\r\n    },\r\n    \"especialidad\":{\r\n        \"id_especialidad\":2\r\n    }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -567,9 +526,12 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:8080/ticket/crear",
+							"raw": "20.55.68.236:8080/ticket/crear",
 							"host": [
-								"localhost"
+								"20",
+								"55",
+								"68",
+								"236"
 							],
 							"port": "8080",
 							"path": [
@@ -584,17 +546,16 @@
 					"name": "localhost:8080/ticket/all",
 					"request": {
 						"auth": {
-							"type": "bearer",
-							"bearer": [
-								{
-									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqaG9uQGdtYWlsIiwiaWF0IjoxNzIwMDU3MjM2LCJleHAiOjE3MjAxNDM2MzZ9.FUDTs3Hnitq2IdIms_E6XN-igoHYMx3f1hgGXOPsptc",
-									"type": "string"
-								}
-							]
+							"type": "noauth"
 						},
 						"method": "GET",
-						"header": [],
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token_eis_project}}",
+								"type": "text"
+							}
+						],
 						"url": {
 							"raw": "20.55.68.236:8080/ticket/all",
 							"host": [
@@ -616,28 +577,117 @@
 					"name": "localhost:8080/ticket/1",
 					"request": {
 						"auth": {
-							"type": "bearer",
-							"bearer": [
-								{
-									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqaG9uQGdtYWlsIiwiaWF0IjoxNzIwMDU2NDczLCJleHAiOjE3MjAxNDI4NzN9.PydiI7raSH01x0v14H2jHnKAcDn8MNrntYllWu5m4fw",
-									"type": "string"
-								}
-							]
+							"type": "noauth"
 						},
 						"method": "GET",
-						"header": [],
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token_eis_project}}",
+								"type": "text"
+							}
+						],
 						"url": {
-							"raw": "20.55.68.236:8080:8080/ticket/1",
+							"raw": "20.55.68.236:8080/ticket/1",
 							"host": [
 								"20",
 								"55",
 								"68",
-								"236:8080"
+								"236"
 							],
 							"port": "8080",
 							"path": [
 								"ticket",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "20.55.68.236:8080/registrohora/crear",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token_eis_project}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"descripcion\":\"{{$randomLoremParagraph}}\",\r\n    \"duracion\":{{$randomInt}},\r\n    \"fecha_hora\":\"{{$timestamp}}\",\r\n    \"especialista\":{\r\n        \"id_especialista\":1\r\n    },\r\n    \"ticket\":{\r\n        \"id_ticket\":1\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/registrohora/crear",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"registrohora",
+								"crear"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "20.55.68.236:8080/registrohora/all",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token_eis_project}}}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "20.55.68.236:8080/registrohora/all",
+							"host": [
+								"20",
+								"55",
+								"68",
+								"236"
+							],
+							"port": "8080",
+							"path": [
+								"registrohora",
+								"all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "20.55.68.236:8080/registrohora/1",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token_eis_project}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "20.55.68.236:8080/registrohora/1",
+							"host": [
+								"20",
+								"55",
+								"68",
+								"236"
+							],
+							"port": "8080",
+							"path": [
+								"registrohora",
 								"1"
 							]
 						}
@@ -844,6 +894,34 @@
 				}
 			},
 			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "token_eis_project",
+			"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqaG9uQGdtYWlsIiwiaWF0IjoxNzIwMTQzMDcyLCJleHAiOjE3MjAyMjk0NzJ9.Tyit3oL5FW7XAXInBMLM-uVXL3lU1Hu-pYg0bOYdLQE"
 		}
 	]
 }
