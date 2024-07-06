@@ -26,7 +26,7 @@ public class AuthenticationController {
 
         return ResponseEntity.ok(registeredUser);
     }
-
+    @CrossOrigin(origins = "http://20.55.68.236:5173")
     @PostMapping("/login")
     public ResponseEntity<LoginResponse> authenticate(@RequestBody LoginUserDto loginUserDto) {
         User authenticatedUser = authenticationService.authenticate(loginUserDto);
