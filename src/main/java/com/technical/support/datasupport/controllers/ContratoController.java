@@ -10,8 +10,9 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
-@RestController
+
 @RequestMapping("/contrato")
+@RestController
 @CrossOrigin(origins = "*")
 public class ContratoController {
 
@@ -39,7 +40,7 @@ public class ContratoController {
     }
 
     @GetMapping("/{id}")
-    @CrossOrigin(origins = "*")
+
     public Contrato getContrato(@PathVariable Long id){
         Optional<Contrato> optionalContrato = contratoRepository.findById(id);
         return optionalContrato.isPresent() ? optionalContrato.get() : null;
