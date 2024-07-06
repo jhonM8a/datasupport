@@ -19,14 +19,12 @@ public class AuthenticationController {
         this.jwtService = jwtService;
         this.authenticationService = authenticationService;
     }
-    @CrossOrigin(origins = "http://20.55.68.236:5173")
     @PostMapping("/signup")
     public ResponseEntity<User> register(@RequestBody RegisterUserDto registerUserDto) {
         User registeredUser = authenticationService.signup(registerUserDto);
 
         return ResponseEntity.ok(registeredUser);
     }
-    @CrossOrigin(origins = "*")
     @PostMapping("/login")
     public ResponseEntity<LoginResponse> authenticate(@RequestBody LoginUserDto loginUserDto) {
         User authenticatedUser = authenticationService.authenticate(loginUserDto);
