@@ -10,6 +10,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/registrohora")
+@CrossOrigin(origins = "*")
 public class RegistroHoraController {
     @Autowired
     private RegistroHoraRepository registroHora;
