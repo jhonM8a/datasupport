@@ -19,6 +19,7 @@ public class ContratoController {
     private ContratoRepository contratoRepository;
 
     @PostMapping("/crear")
+    @CrossOrigin(origins = "*")
     public ResponseEntity crearContrarto(@RequestBody Contrato contrato){
 
         contratoRepository.save(contrato);
@@ -32,11 +33,13 @@ public class ContratoController {
     }
 
     @GetMapping("/all")
+    @CrossOrigin(origins = "*")
     public List<Contrato> getContratos(){
         return contratoRepository.findAll();
     }
 
     @GetMapping("/{id}")
+    @CrossOrigin(origins = "*")
     public Contrato getContrato(@PathVariable Long id){
         Optional<Contrato> optionalContrato = contratoRepository.findById(id);
         return optionalContrato.isPresent() ? optionalContrato.get() : null;
